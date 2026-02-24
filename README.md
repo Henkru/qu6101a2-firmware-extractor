@@ -2,7 +2,7 @@
 
 Tooling for extracting firmware from the Quick 6101A2 fume extractor.
 
-This project implements the out-of-bounds read/write primitives described in my blog post. Those primitives can be used to obtain code execution on the microcontroller, which enables firmware extraction. For more details, please refer to the blog post.
+This project implements the out-of-bounds read/write primitives described in my blog [post](https://nurmi.me/posts/re-quick-6101a-part-2/). Those primitives can be used to obtain code execution on the microcontroller, which enables firmware extraction. For more details, please refer to the blog post.
 
 > [!CAUTION]
 > Use this tool at your own risk.
