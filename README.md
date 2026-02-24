@@ -39,7 +39,7 @@ $ qu-tool.py --port /dev/ttyUSB0 read --addr 0x20004390 --size 0x40
 
 ```bash
 # Use `--data` to pass hex-encoded bytes
-$ qu-tool.py --port /dev/ttyUSB0 write --addr 0x200042C4 --data 20004391
+$ qu-tool.py --port /dev/ttyUSB0 write --addr 0x200042C4 --data "91 43 00 20"
 [*] Wrote 4 bytes starting at 0x200042C4
 
 # Or use `--file` to read input from a file
